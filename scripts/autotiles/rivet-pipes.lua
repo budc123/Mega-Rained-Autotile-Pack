@@ -6,6 +6,7 @@ autotile.type = "path"
 autotile.allowIntersections = true
 autotile:addToggleOption("junctions", "Allow Junctions", true)
 autotile:addToggleOption("cap", "Use End Tiles", false)
+autotile:addIntOption("sep", "Separator Spacing (0 to Disable)", 3, 0, 20)
 
 -- change "allowIntersections" property when junctions is turned on/off
 function autotile:onOptionChanged(id)
@@ -71,4 +72,23 @@ function autotile:tilePath(layer, segments, forceModifier)
     -- run the standard autotiler
     rained.tiles.autotilePath(tileTable, layer, segments, forceModifier)
 
+    local i2 = 0
+    local seperator = self:getOption("sep") + 1
+    for i, seg in ipairs(segments) do
+        local tileName = rained.tiles.getTileAt(seg.x, seg.y, layer)
+        i2 = i2 + 1
+        if i2 >= seperator and seperator ~= 1 then
+            if tileName == "Rivet Pipe Plain Vertical" then
+                rained.tiles.deleteTile(seg.x, seg.y, layer)
+                rained.tiles.placeTile("Rivet Pipe Separator Vertical", seg.x, seg.y, layer, forceModifier)
+                i2 = 0
+            elseif tileName == "Rivet Pipe Plain Horizontal" then
+                rained.tiles.deleteTile(seg.x, seg.y, layer)
+                rained.tiles.placeTile("Rivet Pipe Separator Horizontal", seg.x, seg.y, layer, forceModifier)
+                i2 = 0
+            else
+                i2 = i2 - 1
+            end
+        end
+    end
 end
