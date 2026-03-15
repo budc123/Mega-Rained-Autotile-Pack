@@ -9,7 +9,7 @@ Please report any bugs you find using the issues tab, and i will do my best to a
 
 ## Installation
 
-Download Release.zip the releases page, extract the zip, and move the "budc" folder to
+Download Release.zip the releases page, extract the zip, and move the "budc" folder to  
 `[rained install dir]\scripts\autoload`
 
 > [!warning]
