@@ -9,11 +9,8 @@ Please report any bugs you find using the issues tab, and i will do my best to a
 
 ## Installation
 
-Download either the Vanilla or Warehouse pack from the releases page, extract the zip, and move the "budc" folder to
+Download Autotiles.zip the releases page, extract the zip, and move the "budc" folder to
 `[rained install dir]\scripts\autoload`
-
-the Vanilla pack is for autotiles that i have made for the community editor assets.  
-the Warehouse pack is for autotiles i have made for Solar's Repo assets.
 
 > [!warning]
 > All rained scripts currently run unsandboxed, and may do harm to your computer if malicious. If you are unsure about these, or any other rained scripts, please read through the lua files before using them.
