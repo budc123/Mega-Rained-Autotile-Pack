@@ -1,5 +1,5 @@
 -- setup autotile data
-local autotile = rained.tiles.createAutotile("Vertical Grill Pipes", "Pipes")
+local autotile = rained.tiles.createAutotile("Vertical Grill Pipes", "Budc - Pipes")
 autotile.type = "rect"
 
 autotile:addToggleOption("uCap", "Top Pipe Cap", true)
