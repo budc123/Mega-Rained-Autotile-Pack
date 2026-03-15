@@ -15,7 +15,7 @@ the Vanilla pack is for autotiles that i have made for the community editor asse
 the Warehouse pack is for autotiles i have made for Solar's Repo assets.
 
 > [!warning]
-> All rained scripts currently run unsandboxed, and may do harm to your computer if malicious! If you are unsure about these, or any other rained scripts, please read through the lua files before using them
+> All rained scripts currently run unsandboxed, and may do harm to your computer if malicious! If you are unsure about these, or any other rained scripts, please read through the lua files before using them.
 
 ## Updating
 Make sure to delete the "budc" folder from `[rained install dir]\scripts\autoload` then follow the guide for installation.
