@@ -1,4 +1,8 @@
 -- setup autotile data
+
+-- if not rained.tiles.isInstalled("Grill Pipe") then return end
+-- this doesn't work and i don't know why please help
+
 local autotile = rained.tiles.createAutotile("Horizontal Grill Pipes", "Budc - Pipes")
 autotile.type = "rect"
 
