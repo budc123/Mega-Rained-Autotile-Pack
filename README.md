@@ -21,5 +21,6 @@ Make sure to delete the "budc" folder from `[rained install dir]\scripts\autoloa
 
 ## Other Info
 
-- The `scripts\templates` folder in this repository contains a box autotile template for creating your own simple box type autotile without needing to mess with code, instructions on how to use are in the file.
+- The `scripts\templates` folder in this repository contains easy to use templates for box and path autotiles.  
+instructions on how to use are included in the files.
 
