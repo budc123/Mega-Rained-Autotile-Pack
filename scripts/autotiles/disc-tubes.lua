@@ -1,35 +1,35 @@
 -- An easy to use template for making simple 1x1 path type autotiles
 -- Configure settings below
 
-local name = "Path Template" -- The name of this autotile
-local category = "Misc"-- The category for this autotile
+local name = "Disc Tubes" -- The name of this autotile
+local category = "Budc - Pipes"-- The category for this autotile
 local hasJunctions = true -- Does this autotile support junctions
-local hasX = true -- Does this autotile support X junctions
+local hasX = false -- Does this autotile support X junctions
 local hasCaps = true -- Does this autotile support endcaps
 
 -- Tiles used for vertical and horizontal paths
-local vertical="Vertical Pipe"
-local horizontal="Horizontal Pipe"
+local vertical="DiscTubeS_V"
+local horizontal="DiscTubeS_H"
 
 -- Tiles used for elbows, going clockwise from top left
-local lu="Pipe WN"
-local ru="Pipe EN"
-local rd="Pipe ES"
-local ld="Pipe WS"
+local lu="DiscTubeS_CurveNW"
+local ru="DiscTubeS_CurveNE"
+local rd="DiscTubeS_CurveSE"
+local ld="DiscTubeS_CurveSW"
 
 -- -OPTIONAL- Tiles used for junctions, going clockwise from top
-local tu="Pipe TJunct N"
-local tr="Pipe TJunct E"
-local td="Pipe TJunct S"
-local tl="Pipe TJunct W"
+local tu="DiscTubeS_TJuncS"
+local tr="DiscTubeS_TJuncW"
+local td="DiscTubeS_TJuncN"
+local tl="DiscTubeS_TJuncE"
 
-local x="Pipe XJunct" -- -OPTIONAL- Tile used for X junctions
+local x="" -- -OPTIONAL- Tile used for X junctions
 
 -- -OPTIONAL- Tiles used for endcaps, going clockwise from top OF PIPE CONNECTION
-local capDown="Pipe Inwards N"
-local capLeft="Pipe Inwards W"
-local capUp="Pipe Inwards S"
-local capRight="Pipe Inwards E"
+local capDown="DiscTubeS_VEndS"
+local capLeft="DiscTubeS_HEndW"
+local capUp="DiscTubeS_VEndN"
+local capRight="DiscTubeS_HEndE"
 ----------------------------------
 
 
