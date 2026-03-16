@@ -9,7 +9,7 @@ Please report any bugs you find using the issues tab, and i will do my best to a
 
 ## Installation
 
-Download Release.zip the releases page, extract the zip, and move the "budc" folder to  
+Download the latest Release.zip from the releases page, extract the zip, and move the "budc" folder to  
 `[rained install dir]\scripts\autoload`
 
 > [!warning]
@@ -21,6 +21,6 @@ Make sure to delete the "budc" folder from `[rained install dir]\scripts\autoloa
 
 ## Other Info
 
-- The `scripts\templates` folder in this repository contains easy to use templates for box and path autotiles.  
+- The `scripts\templates` folder in this repository contains easy to use templates for simple box and path autotiles.  
 instructions on how to use are included in the files.
 
