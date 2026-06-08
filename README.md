@@ -4,7 +4,7 @@ not actaully very "mega" in it's current state
 A collection of autotiles for both Vanilla and [Warehouse](https://rainworld-repository.github.io/Repo-Site) tiles for the Rain World level editor [Rained](https://github.com/pkhead/rained).
 May also contain some other utilities in the future.
 
-All autotiles/scripts were created by me unless stated otherwise, and are designed to be used with the latest rained nightly build, they should still function on v2.4.0, but compatibility with older versions is unknown.  
+All autotiles/scripts were created by me unless stated otherwise, and are designed to be used with the latest rained nightly build, they should function on v2.4.0 and up, but compatibility with older versions is unknown.  
 Please report any bugs you find using the issues tab, and i will do my best to adress them.
 
 ## Installation
